@@ -4,7 +4,6 @@
 <head>
 
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Anushri Kumari | Portfolio</title>
@@ -12,8 +11,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
 </head>
@@ -24,31 +23,35 @@
             HEADER
     ========================== -->
 
-    <header>
+    <header class="header">
 
-        <div class="logo">
+        <div class="container">
 
-            <h2>Portfolio</h2>
+            <div class="logo">
+
+                <h2>Anushri.</h2>
+
+            </div>
+
+            <nav class="navbar">
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#education">Education</a>
+
+                <a href="#experience">Experience</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
 
         </div>
-
-        <nav>
-
-            <a href="#home">Home</a>
-
-            <a href="#about">About</a>
-
-            <a href="#skills">Skills</a>
-
-            <a href="#education">Education</a>
-
-            <a href="#experience">Experience</a>
-
-            <a href="#projects">Projects</a>
-
-            <a href="#contact">Contact</a>
-
-        </nav>
 
     </header>
 
@@ -56,38 +59,53 @@
             HERO SECTION
     ========================== -->
 
-    <section id="home">
+    <section id="home" class="hero">
 
-        <div>
+        <div class="container hero-container">
 
-            <p>Hello, I'm</p>
+            <div class="hero-content">
 
-            <h1>Anushri Kumari</h1>
+                <span class="hero-tag">
+                    Full Stack Web Development Intern
+                </span>
 
-            <h3>Frontend Developer | WordPress Developer | AI Enthusiast</h3>
+                <h1>
 
-            <p>
+                    Hi, I'm <span>Anushri Kumari</span>
 
-                Passionate BCA student building premium,
-                responsive websites with modern UI.
-                Currently working as a Full Stack Web
-                Development Intern and continuously
-                learning PHP, AI-assisted development,
-                and backend technologies.
+                </h1>
 
-            </p>
+                <h3>
 
-            <a href="#contact">
+                    Frontend Developer |
+                    WordPress Developer |
+                    AI Enthusiast
 
-                <button>Hire Me</button>
+                </h3>
 
-            </a>
+                <p>
 
-            <a href="#">
+                    Passionate BCA student dedicated to building modern,
+                    responsive and user-friendly websites. Currently working
+                    as a Full Stack Web Development Intern while enhancing my
+                    skills in HTML, CSS, JavaScript, Bootstrap, Tailwind CSS,
+                    WordPress, PHP and AI-assisted development.
 
-                <button>Download CV</button>
+                </p>
 
-            </a>
+                <div class="hero-buttons">
+
+                    <a href="#contact" class="btn">
+                        Hire Me
+                    </a>
+
+                    <a href="#" class="btn btn-outline">
+                        Download CV
+                    </a>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -99,36 +117,45 @@
 
     <section id="about">
 
-        <h2>About Me</h2>
+        <div class="container">
 
-        <p>
+            <h2 class="section-title">
 
-            I'm Anushri Kumari, currently pursuing
-            Bachelor of Computer Applications (BCA)
-            from Dr. Ram Manohar Lohia Avadh University.
+                About Me
 
-        </p>
+            </h2>
 
-        <p>
+            <div class="about-card">
 
-            I'm working as a Full Stack Web Development
-            Intern where I design responsive websites,
-            develop modern user interfaces and build
-            professional business websites using HTML,
-            CSS, JavaScript and WordPress.
+                <p>
 
-        </p>
+                    I'm <strong>Anushri Kumari</strong>, currently pursuing
+                    Bachelor of Computer Applications (BCA) from
+                    Dr. Ram Manohar Lohia Avadh University.
 
-        <p>
+                </p>
 
-            I enjoy creating clean, responsive and
-            user-friendly digital experiences.
-            Along with frontend development,
-            I'm currently learning PHP and backend
-            development to become a Full Stack
-            Web Developer.
+                <p>
 
-        </p>
+                    I love creating responsive, modern and premium websites
+                    with clean UI and excellent user experience.
+                    During my internship, I have worked on real business
+                    websites, landing pages and responsive layouts.
+
+                </p>
+
+                <p>
+
+                    My goal is to become a professional Full Stack Web
+                    Developer by continuously learning modern technologies
+                    like PHP, JavaScript and backend development while
+                    building impactful digital solutions.
+
+                </p>
+
+            </div>
+
+        </div>
 
     </section>
 
@@ -138,79 +165,87 @@
 
     <section id="skills">
 
-        <h2>Technical Skills</h2>
+        <div class="container">
 
-        <div class="skills-container">
+            <h2 class="section-title">
 
-            <div class="skill-box">
+                Technical Skills
 
-                <h3>HTML5</h3>
+            </h2>
 
-                <p>Semantic HTML and SEO friendly web pages.</p>
+            <div class="skills-container">
 
-            </div>
+                <div class="skill-card">
 
-            <div class="skill-box">
+                    <h3>HTML5</h3>
 
-                <h3>CSS3</h3>
+                    <p>Semantic structure, SEO-friendly markup and responsive pages.</p>
 
-                <p>Responsive layouts using Flexbox, Grid and Animations.</p>
+                </div>
 
-            </div>
+                <div class="skill-card">
 
-            <div class="skill-box">
+                    <h3>CSS3</h3>
 
-                <h3>JavaScript</h3>
+                    <p>Flexbox, Grid, Animations and Modern UI Design.</p>
 
-                <p>DOM Manipulation, Events and Interactive UI.</p>
+                </div>
 
-            </div>
+                <div class="skill-card">
 
-            <div class="skill-box">
+                    <h3>JavaScript</h3>
 
-                <h3>Bootstrap</h3>
+                    <p>DOM Manipulation, Events and Interactive Websites.</p>
 
-                <p>Responsive websites with Bootstrap Framework.</p>
+                </div>
 
-            </div>
+                <div class="skill-card">
 
-            <div class="skill-box">
+                    <h3>Bootstrap</h3>
 
-                <h3>Tailwind CSS</h3>
+                    <p>Responsive Framework and Mobile First Development.</p>
 
-                <p>Modern utility-first responsive UI development.</p>
+                </div>
 
-            </div>
+                <div class="skill-card">
 
-            <div class="skill-box">
+                    <h3>Tailwind CSS</h3>
 
-                <h3>WordPress</h3>
+                    <p>Modern Utility First CSS Framework.</p>
 
-                <p>Business websites, Landing Pages and Customization.</p>
+                </div>
 
-            </div>
+                <div class="skill-card">
 
-            <div class="skill-box">
+                    <h3>WordPress</h3>
 
-                <h3>Git & GitHub</h3>
+                    <p>Business Websites, Landing Pages & Customization.</p>
 
-                <p>Version control and project management.</p>
+                </div>
 
-            </div>
+                <div class="skill-card">
 
-            <div class="skill-box">
+                    <h3>Git & GitHub</h3>
 
-                <h3>PHP (Learning)</h3>
+                    <p>Version Control, Collaboration & Deployment.</p>
 
-                <p>Currently learning backend development.</p>
+                </div>
 
-            </div>
+                <div class="skill-card">
 
-            <div class="skill-box">
+                    <h3>PHP</h3>
 
-                <h3>AI Tools</h3>
+                    <p>Currently Learning Backend Development.</p>
 
-                <p>ChatGPT, Canva AI and Antigravity for faster development.</p>
+                </div>
+
+                <div class="skill-card">
+
+                    <h3>AI Tools</h3>
+
+                    <p>ChatGPT, Canva AI and Antigravity for faster development.</p>
+
+                </div>
 
             </div>
 
@@ -224,31 +259,43 @@
 
     <section id="education">
 
-        <h2>Education</h2>
+        <div class="container">
 
-        <div>
+            <h2 class="section-title">
 
-            <h3>Bachelor of Computer Applications (BCA)</h3>
+                Education
 
-            <p>
+            </h2>
 
-                Dr. Ram Manohar Lohia Avadh University
+            <div class="education-card">
 
-            </p>
+                <h3>
 
-            <p>
+                    Bachelor of Computer Applications (BCA)
 
-                2024 - 2027
+                </h3>
 
-            </p>
+                <h4>
 
-            <p>
+                    Dr. Ram Manohar Lohia Avadh University
 
-                Currently pursuing graduation with
-                specialization in Web Development,
-                Programming and Software Engineering.
+                </h4>
 
-            </p>
+                <span>
+
+                    2024 - 2027
+
+                </span>
+
+                <p>
+
+                    Currently pursuing graduation with specialization
+                    in Web Development, Programming,
+                    Software Engineering and Problem Solving.
+
+                </p>
+
+            </div>
 
         </div>
 
@@ -260,39 +307,58 @@
 
     <section id="experience">
 
-        <h2>Experience</h2>
+        <div class="container">
 
-        <div>
+            <h2 class="section-title">
 
-            <h3>Full Stack Web Development Intern</h3>
+                Experience
 
-            <p>
+            </h2>
 
-                Currently working as a Full Stack
-                Web Development Intern where I
-                develop responsive websites,
-                modern UI designs, landing pages
-                and business websites.
+            <div class="experience-card">
 
-            </p>
+                <h3>
 
-            <ul>
+                    Full Stack Web Development Intern
 
-                <li>Responsive Website Development</li>
+                </h3>
 
-                <li>WordPress Website Development</li>
+                <h4>
 
-                <li>Frontend Development</li>
+                    SGTYUG Technologies pvt ltd
 
-                <li>AI Assisted Development</li>
+                </h4>
 
-                <li>Learning PHP Backend Development</li>
+                <p>
 
-            </ul>
+                    Working on responsive websites, WordPress development,
+                    landing pages, frontend UI implementation and learning
+                    backend technologies through real client projects.
+
+                </p>
+
+                <ul>
+
+                    <li>Responsive Website Development</li>
+
+                    <li>Frontend Development</li>
+
+                    <li>WordPress Website Development</li>
+
+                    <li>Landing Page Design</li>
+
+                    <li>AI Assisted Development</li>
+
+                    <li>Learning PHP Backend</li>
+
+                </ul>
+
+            </div>
 
         </div>
 
     </section>
+
 
     <!-- =========================
             PROJECTS
@@ -300,83 +366,137 @@
 
     <section id="projects">
 
-        <h2>Featured Projects</h2>
+        <div class="container">
 
-        <div>
+            <h2 class="section-title">
 
-            <h3>OKSGT Business Website</h3>
+                Featured Projects
 
-            <p>
+            </h2>
 
-                Designed and developed a responsive
-                business website with modern layout,
-                optimized performance and clean UI.
+            <div class="projects-container">
 
-            </p>
+                <!-- Project 1 -->
 
-            <p>
+                <div class="project-card">
 
-                Project :
-                https://oksgt.com/
+                    <h3>OKSGT Business Website</h3>
 
-            </p>
+                    <p>
 
-        </div>
+                        Developed and customized a professional
+                        business website with responsive design,
+                        modern UI and optimized user experience.
 
-        <div>
+                    </p>
 
-            <h3>Faith Foundation</h3>
+                    <h4>Technologies Used</h4>
 
-            <p>
+                    <p>
 
-                Developed a responsive NGO website
-                with user-friendly interface and
-                informative pages.
+                        php • HTML • CSS • js
 
-            </p>
+                    </p>
 
-            <p>
+                    <a href="https://oksgt.com/" target="_blank" class="project-btn">
 
-                Project :
-                https://faithfoundation.infoshkar.com/
+                        Live Project
 
-            </p>
+                    </a>
 
-        </div>
+                </div>
 
-        <div>
+                <!-- Project 2 -->
 
-            <h3>Himalayan Monk</h3>
+                <div class="project-card">
 
-            <p>
+                    <h3>Faith Foundation</h3>
 
-                Created a modern business website
-                with responsive layout and
-                premium user experience.
+                    <p>
 
-            </p>
+                        Designed and developed a responsive NGO
+                        website with clean interface, informative
+                        pages and mobile-friendly layout.
 
-            <p>
+                    </p>
 
-                Project :
-                https://himalayanmonk.infoshkar.com/
+                    <h4>Technologies Used</h4>
 
-            </p>
+                    <p>
 
-        </div>
+                        php • HTML • CSS
 
-        <div>
+                    </p>
 
-            <h3>Personal Portfolio Website</h3>
+                    <a href="https://faithfoundation.infoshkar.com/" target="_blank" class="project-btn">
 
-            <p>
+                        Live Project
 
-                Personal portfolio built using
-                HTML, CSS and JavaScript
-                showcasing skills, projects
-                and experience.
+                    </a>
 
-            </p>
+                </div>
+
+                <!-- Project 3 -->
+
+                <div class="project-card">
+
+                    <h3>Himalayan Monk</h3>
+
+                    <p>
+
+                        Built a premium business website with
+                        modern layout, responsive sections
+                        and improved user experience.
+
+                    </p>
+
+                    <h4>Technologies Used</h4>
+
+                    <p>
+
+                        php • HTML • CSS
+
+                    </p>
+
+                    <a href="https://himalayanmonk.infoshkar.com/" target="_blank" class="project-btn">
+
+                        Live Project
+
+                    </a>
+
+                </div>
+
+                <!-- Project 4 -->
+
+                <div class="project-card">
+
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+
+                        Designed and developed my own portfolio
+                        website to showcase my skills,
+                        internship experience and projects.
+
+                    </p>
+
+                    <h4>Technologies Used</h4>
+
+                    <p>
+
+                        HTML • CSS • JavaScript
+
+                    </p>
+
+                    <a href="#" class="project-btn">
+
+                        In Progress
+
+                    </a>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -388,36 +508,65 @@
 
     <section id="contact">
 
-        <h2>Let's Connect</h2>
+        <div class="container">
 
-        <p>
+            <h2 class="section-title">
 
-            📧 anushrikumariatps592007@gmail.com
+                Let's Connect
 
-        </p>
+            </h2>
 
-        <p>
+            <div class="contact-card">
 
-            💻 GitHub :
-            github.com/anushrikumariatps592007-sketch
+                <h3>
 
-        </p>
+                    Available For Internship,
+                    Freelance & Collaboration
 
-        <p>
+                </h3>
 
-            💼 LinkedIn :
-            linkedin.com/in/anushri-kumari-317998354
+                <p>
 
-        </p>
+                    I'm passionate about creating
+                    responsive, user-friendly and
+                    modern websites.
 
-        <p>
+                    Feel free to connect with me!
 
-            I'm open to Internship,
-            Freelance Opportunities,
-            Collaborations and
-            exciting Web Development projects.
+                </p>
 
-        </p>
+                <div class="contact-info">
+
+                    <a href="mailto:anushrikumariatps592007@gmail.com" class="contact-link">
+                        <span class="icon">📧</span>
+                        anushrikumariatps592007@gmail.com
+                    </a>
+
+                    <a href="https://github.com/anushrikumariatps592007-sketch" target="_blank" class="contact-link">
+                        <span class="icon">💻</span>
+                        github.com/anushrikumariatps592007-sketch
+                    </a>
+
+                    <a href="https://linkedin.com/in/anushri-kumari-317998354" target="_blank" class="contact-link">
+                        <span class="icon">💼</span>
+                        linkedin.com/in/anushri-kumari-317998354
+                    </a>
+
+                </div>
+
+                <div class="hero-buttons">
+
+                    <a href="mailto:anushrikumariatps592007@gmail.com" class="btn">
+
+                        Contact Me
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
 
@@ -427,12 +576,38 @@
 
     <footer>
 
-        <p>
+        <div class="container">
 
-            © 2026 Anushri Kumari.
-            All Rights Reserved.
+            <h2>
 
-        </p>
+                Anushri Kumari
+
+            </h2>
+
+            <p>
+
+                Frontend Developer •
+                WordPress Developer •
+                AI Enthusiast
+
+            </p>
+
+            <p>
+
+                Currently pursuing my
+                Full Stack Web Development Internship at
+
+                <strong>Codomax Digital Solutions</strong>
+
+            </p>
+
+            <p>
+
+                © 2026 All Rights Reserved.
+
+            </p>
+
+        </div>
 
     </footer>
 

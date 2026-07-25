@@ -55,3 +55,84 @@ On Day 3, I will add:
 
 ---
 **Author:** Anushri Kumari
+
+
+
+
+# Day 4 - Personal Portfolio Website
+
+## 📅 Date
+25 July 2026
+
+## 🚀 Task Completed
+
+Today I focused on designing and styling my Personal Portfolio Website using HTML and CSS.
+
+### ✅ Work Done
+
+- Completed the Portfolio Website structure
+- Designed a professional Hero Section
+- Added responsive Navigation Bar
+- Styled About section
+- Designed Skills cards
+- Styled Education section
+- Styled Experience section
+- Designed Projects section
+- Styled Contact section
+- Added Footer
+- Created professional buttons
+- Added hover effects
+- Improved spacing and typography
+- Applied a clean and modern color theme
+- Made the layout responsive for different screen sizes
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- Responsive Design
+
+---
+
+## 🎯 Learning Outcome
+
+Today I learned how to:
+
+- Build a professional portfolio layout
+- Organize webpage sections
+- Design responsive user interfaces
+- Apply modern CSS styling
+- Use Flexbox and Grid effectively
+- Improve UI with hover effects and spacing
+- Create a clean and attractive portfolio design
+
+---
+
+## 📌 Project Status
+
+✅ Portfolio Structure Completed
+
+🚧 Upcoming Work
+
+- Add JavaScript functionality
+- Smooth scrolling
+- Active navigation
+- Scroll animations
+- Contact form validation
+- Dark/Light Mode (Optional)
+
+---
+
+## 💡 Developed During
+
+Full Stack Web Development Internship
+
+Special Thanks to **CodeMax** for providing guidance and helping me improve my web development skills.
+
+---
+
+### #Day4 #HTML #CSS #FrontendDevelopment #PortfolioWebsite #WebDevelopment #ResponsiveDesign #CodeMax #LearningInPublic
