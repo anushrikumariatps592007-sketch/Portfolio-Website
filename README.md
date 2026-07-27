@@ -136,3 +136,35 @@ Special Thanks to **CodeMax** for providing guidance and helping me improve my w
 ---
 
 ### #Day4 #HTML #CSS #FrontendDevelopment #PortfolioWebsite #WebDevelopment #ResponsiveDesign #CodeMax #LearningInPublic
+
+
+
+
+## 📅 Day 5 - Portfolio UI Enhancement
+
+### 🚀 Progress
+On Day 5, I focused on improving the overall user interface of my personal portfolio website using only HTML and CSS. The goal was to make the website cleaner, more professional, and visually appealing.
+
+### ✅ Tasks Completed
+- Improved Skills section UI
+- Added modern skill cards with hover effects
+- Enhanced spacing and alignment
+- Updated color palette for a more professional look
+- Improved typography and readability
+- Refined button styles and animations
+- Enhanced overall responsiveness
+- Organized CSS for better maintainability
+
+### 🛠️ Technologies Used
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- CSS Variables
+- Transitions & Hover Effects
+
+### 🎯 Learning Outcome
+Today I learned how small UI improvements, consistent spacing, modern color combinations, and smooth animations can significantly improve the user experience of a portfolio website.
+
+---
+**Day 5 Completed Successfully ✅**
