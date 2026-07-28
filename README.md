@@ -168,3 +168,32 @@ Today I learned how small UI improvements, consistent spacing, modern color comb
 
 ---
 **Day 5 Completed Successfully ✅**
+
+---
+
+## 📅 Day 6: Media Queries and Responsive Design
+
+### 📝 Task Overview
+- Applied Media Queries to optimize the website for mobile, tablet, and desktop viewing.
+- Implemented a fully functional Hamburger Menu for mobile navigation.
+
+### 💻 Implementation Details
+- **HTML (`index.html`)**: Added a mobile menu toggle button (`.menu-toggle`) inside the header.
+- **CSS (`css/style.css`)**: 
+  - Styled the hamburger icon and created animations for its open/close state.
+  - Converted the hidden mobile navigation into a sleek sliding side drawer menu for screens under 768px.
+  - Ensured elements scale and adjust padding/margins appropriately on smaller devices.
+- **JavaScript (`javascript/script.js`)**: Wrote a script to handle the hamburger menu click events, toggling the active states of the navigation menu, and automatically closing the menu when a link is clicked.
+
+### 🛠️ Key Concepts Used
+- CSS Media Queries (`@media`)
+- Mobile-First vs Desktop-First Approaches
+- Responsive Typography & Spacing
+- DOM Manipulation with JavaScript
+- CSS Transitions & Transforms
+
+### 🎯 Learning Outcome
+Today I learned how to build a fully responsive layout that looks great on any screen size. Implementing the custom hamburger menu with JavaScript enhanced my understanding of how HTML, CSS, and JS work together to create interactive mobile UI components.
+
+---
+**Day 6 Completed Successfully ✅**
