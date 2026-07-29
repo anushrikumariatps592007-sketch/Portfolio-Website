@@ -197,3 +197,31 @@ Today I learned how to build a fully responsive layout that looks great on any s
 
 ---
 **Day 6 Completed Successfully ✅**
+
+## 📅 Day 7: JavaScript Basics & Interactivity
+
+### 📝 Task Overview
+- Learned JavaScript basics and added interactivity to the website.
+- Implemented button events, DOM manipulation, and a scroll-to-top feature.
+
+### 💻 Implementation Details
+- **HTML (`index.html`)**: 
+  - Added an ID to the "Download CV" button.
+  - Added a "Scroll to Top" button at the bottom of the page.
+- **CSS (`css/style.css`)**: 
+  - Styled the scroll-to-top button, making it fixed at the bottom right and adding hover effects.
+- **JavaScript (`javascript/script.js`)**: 
+  - Added an event listener to the "Download CV" button to demonstrate basic click events and DOM interaction.
+  - Implemented logic to show the scroll-to-top button only when the user scrolls down a certain amount.
+  - Added smooth scrolling functionality when the scroll-to-top button is clicked.
+
+### 🛠️ Key Concepts Used
+- JavaScript Event Listeners (`click`, `scroll`)
+- DOM Manipulation (`getElementById`, `style.display`)
+- Browser APIs (`window.scrollTo`, `window.scrollY`)
+
+### 🎯 Learning Outcome
+Today I learned how to use JavaScript to add dynamic behavior to a static website. Understanding events, manipulating the DOM, and handling scroll interactions makes the user experience much more engaging and modern.
+
+---
+**Day 7 Completed Successfully ✅**
