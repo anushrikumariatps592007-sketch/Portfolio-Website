@@ -445,14 +445,14 @@ section {
 ========================== */
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
 }
 
 .project-card {
     background: linear-gradient(145deg, var(--surface-color) 0%, #f3f4f6 100%);
-    padding: 2.5rem 2rem;
-    border-radius: 16px;
+    padding: 1.5rem;
+    border-radius: 12px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -484,20 +484,36 @@ section {
     box-shadow: 0 15px 40px rgba(250, 204, 21, 0.15), 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.project-card h3 {
-    font-size: 1.4rem;
+.project-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
     margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-speed);
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.05);
+}
+
+.project-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
     color: var(--text-main);
 }
 
 .project-card p {
     color: var(--text-muted);
-    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
     flex-grow: 1;
 }
 
 .project-card h4 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--text-main);
     margin-bottom: 0.5rem;
 }

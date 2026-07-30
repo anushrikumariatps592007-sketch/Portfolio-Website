@@ -225,3 +225,21 @@ Today I learned how to use JavaScript to add dynamic behavior to a static websit
 
 ---
 **Day 7 Completed Successfully ✅**
+
+## 📅 Day 8: Project Section UI Adjustment
+
+### 📝 Task Overview
+- Adjusted the size and styling of project cards to ensure they fit better on standard laptop screens.
+
+### 💻 Implementation Details
+- **CSS (`css/style.css`)**: 
+  - Reduced padding inside the project cards to make them more compact.
+  - Decreased the height of project images from 200px to 160px.
+  - Refined the grid layout minmax width from 320px to 280px.
+  - Scaled down typography (headings and text) within the project cards to fit the smaller footprint.
+
+### 🎯 Learning Outcome
+- Learned the importance of optimizing UI component sizes, particularly cards, to ensure they can be viewed entirely within a single viewport height, enhancing overall user experience.
+
+---
+**Day 8 Completed Successfully ✅**
