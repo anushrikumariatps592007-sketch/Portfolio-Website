@@ -243,3 +243,22 @@ Today I learned how to use JavaScript to add dynamic behavior to a static websit
 
 ---
 **Day 8 Completed Successfully ✅**
+
+## 📅 Day 9: Skills, Resume Download, and Experience Sections
+
+### 📝 Task Overview
+- Created and finalized the **Skills**, **Resume Download**, and **Experience** sections as per the task sheet.
+- Since the base for these sections was created in earlier days, today's focus was on refining content and ensuring alignment with the Codomax internship.
+
+### 💻 Implementation Details
+- **HTML (`index.html`)**: 
+  - Verified the **Experience Section** to ensure it highlights the previous experience correctly.
+  - Ensured the **Resume Download** button (`Download CV`) in the Hero section is correctly linked and uses the proper `download` attribute.
+  - Verified the **Skills Section** layout and descriptions.
+
+### 🎯 Learning Outcome
+- Understood the importance of keeping portfolio information accurate and up to date.
+- Learned how to properly set up a resume download link using the `download` attribute in HTML.
+
+---
+**Day 9 Completed Successfully ✅**

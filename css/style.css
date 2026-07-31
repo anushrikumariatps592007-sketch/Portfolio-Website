@@ -5,9 +5,9 @@
     --bg-color: #F9FAFB;
     --surface-color: #FFFFFF;
     --surface-hover: #F3F4F6;
-    --primary-color: #D97706;
-    /* Professional Amber for light theme */
-    --primary-hover: #B45309;
+    --primary-color: #2563EB;
+    /* Professional Blue for minimal theme */
+    --primary-hover: #1D4ED8;
     --text-main: #111827;
     --text-muted: #4B5563;
     --border-color: rgba(0, 0, 0, 0.1);
@@ -91,11 +91,11 @@ section {
     left: 0;
     width: 100%;
     height: var(--header-height);
-    background-color: rgba(217, 119, 6, 0.08); /* Subtle amber tint */
+    background-color: rgba(255, 255, 255, 0.8); /* Minimal white */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     z-index: 1000;
-    border-bottom: 1px solid rgba(217, 119, 6, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     display: flex;
     align-items: center;
 }
@@ -201,9 +201,9 @@ section {
 .hero-tag {
     display: inline-block;
     padding: 0.5rem 1.5rem;
-    background-color: rgba(250, 204, 21, 0.1);
+    background-color: rgba(37, 99, 235, 0.05);
     color: var(--primary-color);
-    border: 1px solid rgba(250, 204, 21, 0.2);
+    border: 1px solid rgba(37, 99, 235, 0.2);
     border-radius: 50px;
     font-size: 0.9rem;
     font-weight: 600;
@@ -260,13 +260,13 @@ section {
 
 .btn {
     background-color: var(--primary-color);
-    color: #000;
+    color: #FFFFFF;
 }
 
 .btn:hover {
     background-color: var(--primary-hover);
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(250, 204, 21, 0.2);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
 }
 
 .btn-outline {
@@ -310,7 +310,7 @@ section {
     left: -100%;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, transparent, rgba(250, 204, 21, 0.05), transparent);
+    background: linear-gradient(to right, transparent, rgba(37, 99, 235, 0.05), transparent);
     transform: skewX(-25deg);
     transition: 0.5s;
 }
@@ -327,8 +327,8 @@ section {
 .experience-card:hover,
 .contact-card:hover {
     transform: translateY(-10px);
-    border-color: rgba(250, 204, 21, 0.4);
-    box-shadow: 0 15px 40px rgba(250, 204, 21, 0.15), 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-color: rgba(37, 99, 235, 0.4);
+    box-shadow: 0 15px 40px rgba(37, 99, 235, 0.1), 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .about-card p {
@@ -374,7 +374,7 @@ section {
 
 .skill-box:hover{
     transform: translateY(-10px);
-    box-shadow: 0 10px 35px rgba(255,153,0,.25);
+    box-shadow: 0 10px 35px rgba(37, 99, 235, 0.15);
 }
 
 .skill-box h3{
@@ -469,7 +469,7 @@ section {
     left: -100%;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right, transparent, rgba(250, 204, 21, 0.05), transparent);
+    background: linear-gradient(to right, transparent, rgba(37, 99, 235, 0.05), transparent);
     transform: skewX(-25deg);
     transition: 0.5s;
 }
@@ -480,8 +480,8 @@ section {
 
 .project-card:hover {
     transform: translateY(-10px);
-    border-color: rgba(250, 204, 21, 0.4);
-    box-shadow: 0 15px 40px rgba(250, 204, 21, 0.15), 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-color: rgba(37, 99, 235, 0.4);
+    box-shadow: 0 15px 40px rgba(37, 99, 235, 0.1), 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .project-img {
@@ -522,8 +522,7 @@ section {
     display: inline-block;
     text-align: center;
     padding: 0.8rem 1.5rem;
-    background-color: rgba(255, 255, 255, 0.05);
-    color: var(--text-main);
+    color: #FFFFFF;
     border-radius: 8px;
     font-weight: 500;
     transition: all var(--transition-speed);
@@ -581,11 +580,11 @@ section {
 }
 
 .contact-link:hover {
-    color: var(--text-main);
+    color: var(--primary-color);
     border-color: var(--primary-color);
-    background: rgba(250, 204, 21, 0.05);
+    background: rgba(37, 99, 235, 0.05);
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(250, 204, 21, 0.1);
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.1);
 }
 
 .contact-link .icon {
