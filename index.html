@@ -114,6 +114,10 @@
 
             </div>
 
+            <div class="hero-image">
+                <img src="images/Anushri Kumari.jpg" alt="Anushri Kumari" class="profile-img">
+            </div>
+
         </div>
 
     </section>
@@ -531,51 +535,82 @@
 
             </h2>
 
-            <div class="contact-card">
+            <div class="contact-wrapper">
 
-                <h3>
+                <div class="contact-info-card">
 
-                    Available For Internship,
-                    Freelance & Collaboration
+                    <h3>
 
-                </h3>
+                        Contact Information
 
-                <p>
+                    </h3>
 
-                    I'm passionate about creating
-                    responsive, user-friendly and
-                    modern websites.
+                    <p>
 
-                    Feel free to connect with me!
+                        I'm passionate about creating
+                        responsive, user-friendly and
+                        modern websites.
 
-                </p>
+                        Feel free to connect with me!
 
-                <div class="contact-info">
+                    </p>
 
-                    <a href="mailto:anushrikumariatps592007@gmail.com" class="contact-link">
-                        <span class="icon">📧</span>
-                        anushrikumariatps592007@gmail.com
-                    </a>
+                    <div class="contact-info-list">
 
-                    <a href="https://github.com/anushrikumariatps592007-sketch" target="_blank" class="contact-link">
-                        <span class="icon">💻</span>
-                        github.com/anushrikumariatps592007-sketch
-                    </a>
+                        <a href="mailto:anushrikumariatps592007@gmail.com" class="contact-link">
+                            <span class="icon">📧</span>
+                            anushrikumariatps592007@gmail.com
+                        </a>
 
-                    <a href="https://linkedin.com/in/anushri-kumari-317998354" target="_blank" class="contact-link">
-                        <span class="icon">💼</span>
-                        linkedin.com/in/anushri-kumari-317998354
-                    </a>
+                        <a href="https://github.com/anushrikumariatps592007-sketch" target="_blank"
+                            class="contact-link">
+                            <span class="icon">💻</span>
+                            github.com/anushrikumariatps592007-sketch
+                        </a>
+
+                        <a href="https://linkedin.com/in/anushri-kumari-317998354" target="_blank" class="contact-link">
+                            <span class="icon">💼</span>
+                            linkedin.com/in/anushri-kumari-317998354
+                        </a>
+
+                    </div>
 
                 </div>
 
-                <div class="hero-buttons">
+                <div class="contact-form-card">
 
-                    <a href="mailto:anushrikumariatps592007@gmail.com" class="btn">
+                    <h3>Send a Message</h3>
 
-                        Contact Me
+                    <form id="contactForm" class="contact-form">
 
-                    </a>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe">
+                            <span class="error-msg" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com">
+                            <span class="error-msg" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
+                            <span class="error-msg" id="subjectError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Your message here..."></textarea>
+                            <span class="error-msg" id="messageError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit">Send Message</button>
+
+                    </form>
 
                 </div>
 

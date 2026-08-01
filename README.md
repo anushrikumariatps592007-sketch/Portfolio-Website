@@ -262,3 +262,33 @@ Today I learned how to use JavaScript to add dynamic behavior to a static websit
 
 ---
 **Day 9 Completed Successfully ✅**
+
+## 📅 Day 10: Professional Contact Page & Form Validation
+
+### 📝 Task Overview
+- Designed and built a professional Contact page with social links.
+- Implemented client-side form validation using JavaScript to ensure required fields and correct email formats before submission.
+
+### 💻 Implementation Details
+- **HTML (`index.html`)**: 
+  - Restructured the contact section using a CSS Grid layout (`.contact-wrapper`).
+  - Created a left column for contact information and social links (`.contact-info-card`).
+  - Added a right column containing a professional contact form (`.contact-form-card`) with fields for Name, Email, Subject, and Message.
+- **CSS (`css/style.css`)**: 
+  - Updated the shared cards styles to include the new contact cards.
+  - Added styling for form elements including inputs, textareas, labels, and focus states.
+  - Added styling for error messages that dynamically appear beneath invalid fields.
+  - Maintained responsive design for the contact section to stack neatly on smaller screens.
+- **JavaScript (`javascript/script.js`)**: 
+  - Added an event listener for the form submission.
+  - Prevented default submission behavior.
+  - Developed a validation logic sequence to check for empty fields and validate the email address structure using a Regex pattern.
+  - Displayed specific error messages next to each invalid input.
+  - Displayed a success alert and cleared the form upon valid submission.
+
+### 🎯 Learning Outcome
+- Learned how to properly structure and style modern web forms.
+- Gained practical experience in writing custom JavaScript for client-side form validation, ensuring a better user experience by catching errors before a server request is made.
+
+---
+**Day 10 Completed Successfully ✅**
