@@ -898,3 +898,25 @@ footer p:last-child {
     background-color: var(--primary-hover);
     transform: translateY(-5px);
 }
+
+/* =========================
+   ANIMATIONS & ACTIVE LINKS
+========================== */
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.navbar a.active-link {
+    color: var(--primary-color);
+}
+
+.navbar a.active-link::after {
+    width: 100%;
+}

@@ -292,3 +292,26 @@ Today I learned how to use JavaScript to add dynamic behavior to a static websit
 
 ---
 **Day 10 Completed Successfully ✅**
+
+## 📅 Day 11: Animations, Transitions & Smooth Scrolling
+
+### 📝 Task Overview
+- Added animations, transitions, hover effects and smooth scrolling to enhance the website's dynamic feel.
+
+### 💻 Implementation Details
+- **HTML (`index.html`)**: 
+  - Added `.reveal` class to various sections (About, Skills, Education, Experience, Projects, Contact) to enable scroll animations.
+- **CSS (`css/style.css`)**: 
+  - Created `.reveal` and `.reveal.active` classes for fade-in and slide-up animations.
+  - Added styling for the active state of navigation links.
+  - Applied hover effects and transition enhancements to the scroll-to-top button and other interactive elements.
+- **JavaScript (`javascript/script.js`)**: 
+  - Implemented `IntersectionObserver` to trigger the `.active` class when elements with `.reveal` come into the viewport.
+  - Added a scroll event listener to dynamically update the active state of navigation links based on the current section in view.
+
+### 🎯 Learning Outcome
+- Gained hands-on experience using the `IntersectionObserver` API for performant scroll-based animations.
+- Learned how to implement dynamic navigation highlights to improve user orientation on single-page websites.
+
+---
+**Day 11 Completed Successfully ✅**
