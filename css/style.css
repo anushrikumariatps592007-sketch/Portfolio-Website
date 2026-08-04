@@ -230,7 +230,9 @@ section {
 }
 
 .hero h1 span {
-    color: var(--primary-color);
+    background: linear-gradient(90deg, #2563EB, #8B5CF6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero h3 {
@@ -248,12 +250,19 @@ section {
 }
 
 /* Hero Image */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
 .hero-image {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
+    animation: float 6s ease-in-out infinite;
 }
 
 .profile-img {
@@ -293,14 +302,16 @@ section {
 }
 
 .btn {
-    background-color: var(--primary-color);
+    background: linear-gradient(90deg, #2563EB, #3B82F6);
     color: #FFFFFF;
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+    border: none;
 }
 
 .btn:hover {
-    background-color: var(--primary-hover);
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.2);
+    background: linear-gradient(90deg, #1D4ED8, #2563EB);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.5);
 }
 
 .btn-outline {

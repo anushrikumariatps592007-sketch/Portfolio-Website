@@ -315,3 +315,30 @@ Today I learned how to use JavaScript to add dynamic behavior to a static websit
 
 ---
 **Day 11 Completed Successfully ✅**
+
+
+## 📅 Day 12: Git Commands & GitHub Pages Deployment
+
+### 📝 Task Overview
+- Improved overall UI for a more premium and dynamic look ("Tagdi" design).
+- Added gradient text, better shadows, button animations, and floating effects.
+- Pushed the latest code to the GitHub repository using Git commands.
+- Deployed the live portfolio using GitHub Pages.
+
+### 💻 Implementation Details
+- **CSS (`css/style.css`)**: 
+  - Enhanced the Hero section with gradient text for the name.
+  - Added a floating animation to the profile image for a dynamic feel.
+  - Upgraded buttons with gradient backgrounds, scaling effects, and pronounced shadows.
+  - Added modern glassmorphism and gradient accents to make the UI look premium.
+- **Git & GitHub**:
+  - Used `git add`, `git commit`, and `git push` to upload code to GitHub.
+  - Deployed the project to GitHub Pages for live access.
+
+### 🎯 Learning Outcome
+- Gained hands-on experience in using Git for version control and collaborating/deploying code via GitHub.
+- Learned how to deploy static websites seamlessly using GitHub Pages.
+- Realized the impact of micro-animations and gradient accents in elevating the UI to a premium level.
+
+---
+**Day 12 Completed Successfully ✅**
