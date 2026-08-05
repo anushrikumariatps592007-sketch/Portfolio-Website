@@ -341,4 +341,26 @@ Today I learned how to use JavaScript to add dynamic behavior to a static websit
 - Realized the impact of micro-animations and gradient accents in elevating the UI to a premium level.
 
 ---
-**Day 12 Completed Successfully ✅**
+**Day 12 Completed Successfully ✅**
+
+## 📅 Day 13: Responsiveness, Bug Fixes & Optimization
+
+### 📝 Task Overview
+- Tested overall website responsiveness across different devices.
+- Fixed minor bugs and cleaned up unused CSS code.
+- Optimized performance by lazy loading images.
+
+### 💻 Implementation Details
+- **HTML (`index.html`)**: 
+  - Added the `loading="lazy"` attribute to all project images and the profile image to improve page load speed and performance.
+- **CSS (`css/style.css`)**: 
+  - Cleaned up the codebase by removing unused commented-out styles.
+  - Verified media queries (`@media (max-width: 992px)`, `768px`, `480px`) to ensure seamless scaling on tablets and mobile devices.
+
+### 🎯 Learning Outcome
+- Learned the importance of image lazy loading for performance optimization.
+- Gained experience in code refactoring and maintaining a clean, production-ready codebase.
+- Re-enforced testing methods for ensuring cross-device compatibility.
+
+---
+**Day 13 Completed Successfully ✅**
